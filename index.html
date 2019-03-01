@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="zh_CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="swiper-4.4.6/css/swiper.min.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/home.css">
+    <title>首页</title>
+</head>
+<body>
+<div class="main">
+    <div class="search">
+        <a href="javascript:;">
+            <span class="icon-magnifier"></span>
+            <span class="text">搜索商品</span>
+        </a>
+    </div>
+    <div class="banner1">
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="//i8.mifile.cn/v1/a1/86b2778b-03be-856f-833c-3b58342dbfae!720x360.webp">
+                </div>
+                <div class="swiper-slide">
+                    <img src="//i8.mifile.cn/v1/a1/6a43d4b6-9fa0-12d3-503d-641b2a19d076!720x360.webp">
+                </div>
+                <div class="swiper-slide">
+                    <img src="//i8.mifile.cn/v1/a1/ec83f46e-1929-1b3d-0984-1f3b5f6763e2!720x360.webp">
+                </div>
+            </div>
+            <!-- 如果需要分页器 -->
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+    <div class="category">
+        <a href="javascript:;">
+            <img src="//i8.mifile.cn/v1/a1/69f3581c-893a-c3a3-9f27-055146a62b7e!144x152.webp">
+        </a>
+        <a href="javascript:;">
+            <img src="//i8.mifile.cn/v1/a1/69f3581c-893a-c3a3-9f27-055146a62b7e!144x152.webp">
+        </a>
+        <a href="javascript:;">
+            <img src="//i8.mifile.cn/v1/a1/69f3581c-893a-c3a3-9f27-055146a62b7e!144x152.webp">
+        </a>
+        <a href="javascript:;">
+            <img src="//i8.mifile.cn/v1/a1/69f3581c-893a-c3a3-9f27-055146a62b7e!144x152.webp">
+        </a>
+        <a href="javascript:;">
+            <img src="//i8.mifile.cn/v1/a1/69f3581c-893a-c3a3-9f27-055146a62b7e!144x152.webp">
+        </a>
+        <a href="javascript:;">
+            <img src="//i8.mifile.cn/v1/a1/69f3581c-893a-c3a3-9f27-055146a62b7e!144x152.webp">
+        </a>
+        <a href="javascript:;">
+            <img src="//i8.mifile.cn/v1/a1/69f3581c-893a-c3a3-9f27-055146a62b7e!144x152.webp">
+        </a>
+        <a href="javascript:;">
+            <img src="//i8.mifile.cn/v1/a1/69f3581c-893a-c3a3-9f27-055146a62b7e!144x152.webp">
+        </a>
+        <a href="javascript:;">
+            <img src="//i8.mifile.cn/v1/a1/69f3581c-893a-c3a3-9f27-055146a62b7e!144x152.webp">
+        </a>
+        <a href="javascript:;">
+            <img src="//i8.mifile.cn/v1/a1/69f3581c-893a-c3a3-9f27-055146a62b7e!144x152.webp">
+        </a>
+    </div>
+    <div class="hot">
+        <div class="left">
+            <img src="//i8.mifile.cn/v1/a1/4255cd48-2d66-fb1d-000e-4f657f5bb6f2!358x508.webp">
+        </div>
+        <div class="right">
+            <div class="top">
+                <img src="//i8.mifile.cn/v1/a1/a3425d7b-a0b2-9cad-13fe-cdbd2f2806b6!358x252.webp">
+            </div>
+            <div class="bottom">
+                <img src="//i8.mifile.cn/v1/a1/b5413a0d-0c80-6f16-d5f6-cdc7c596921c!358x252.webp">
+            </div>
+        </div>
+    </div>
+</div>
+<div class="menu">
+    <a href="javascript:;" class="active">
+        <span class="icon-home-selected icon"></span>
+        <span class="text">首页</span>
+    </a>
+    <a href="javascript:;">
+        <span class="icon-category icon"></span>
+        <span class="text">分类</span>
+    </a>
+    <a href="javascript:;">
+        <span class="icon-find icon"></span>
+        <span class="text">发现</span>
+    </a>
+    <a href="javascript:;">
+        <span class="icon-cart icon"></span>
+        <span class="text">购物车</span>
+    </a>
+    <a href="javascript:;">
+        <span class="icon-my icon"></span>
+        <span class="text">我的</span>
+    </a>
+</div>
+
+<script type="text/javascript" src="swiper-4.4.6/js/swiper.min.js"></script>
+<script>
+    new Swiper('.swiper-container', {
+        speed: 300,
+        autoplay: {
+            delay: 3000
+        },
+        direction: 'horizontal', // 水平切换选项
+        loop: true, // 循环模式选项
+        // 如果需要分页器
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true
+        }
+    })
+</script>
+</body>
+</html>
